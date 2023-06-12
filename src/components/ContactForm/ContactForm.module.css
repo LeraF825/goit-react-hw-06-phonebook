@@ -10,29 +10,29 @@
 }
 
 .label {
-    display: inline-block;
+    display: flex;
     margin-bottom: 16px;
     font-size: 20px;
-    color: #171718;
+    color: rgb(12, 12, 44);
     cursor: pointer;
 }
 
 .inputNumber, .inputName{
-    color: #171718;
-  font: inherit;
-  font-size: 1.2rem;
-  padding: 10px;
-  border-radius: 4px;
-  border: 1px solid #bdbdbd;
-  width: 350px;
-  outline: 0;
+  background-color: transparent;
+  border: 0;
+  outline: none;
+  border-bottom: 1px solid rgb(173, 173, 173);
+  color: rgb(52, 52, 52);
+  padding-left: 5px;
+  width: 100%;
+  font-size: 14px;
 }
 .btn {
     display: inline-flex;
   align-items: center;
   justify-content: center;
   color: #fff;
-  background-color: #eb8948;
+  background-color: rgb(255, 153, 0);
   border: 0;
   outline: 0;
   padding: 8px 24px;
@@ -46,5 +46,6 @@
 }
 .btn:hover{
     box-shadow: 0px 2px 1px 1px rgba(0, 0, 0, 0.15);
-  background-color: #973827;
+  background-color: rgb(6, 6, 145);
+  color: white;
 }
